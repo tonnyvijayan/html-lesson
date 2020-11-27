@@ -1,0 +1,18 @@
+body{
+    color: red;
+} 
+
+h1{
+    color: blue;
+}
+
+#lib-header{
+    color: green;
+}
+.para-style{
+    color: hotpink;
+}
+
+#typo-style{
+    color: lightsalmon;
+}

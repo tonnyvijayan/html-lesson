@@ -5,20 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--This is 1 way of doing css <style>
+        body{
+            color: red;
+        }
+    </style> -->
+
+    <!-- this is the thirday way of doing it- externally     -->
+
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 
 <body>
-    <h1>Tonny's component library</h1>
+    <h1 id="lib-header">Tonny's component library</h1>
+    <!-- second way of doing it style="color: blue;" -->
     <p>I am attending neog camp and i want to make a library which would make all my projects look good and consistent
     </p>
 
     <hr>
 
-    <h2>@typography</h2>
+    <h2 id="typo-style">@typography</h2>
     <h1>This is the biggest heading</h1>
     <h1>this is another big heading goes to next row</h1>
     <h2>This is the second biggest heading </h2>
-    <p>This is a paragraph and its free flowing also wraps around the end to form a paragraph</p>
+    <p class="para-style">This is a paragraph and its free flowing also wraps around the end to form a paragraph</p>
     <small>this is a smaller text.</small><small>this a smaller text 2</small>
     <h1>this is test </h1>
     <hr>
@@ -26,10 +36,10 @@
     <h2>@container</h2>
 
     <h3>fluid container</h3>
-    <div>this is a fluid container and will go till the end of this page </div>
+    <div class="para-style">this is a fluid container and will go till the end of this page </div>
 
     <h3>centred container</h3>
-    <div>this is a centred container and will</div>
+    <div class="para-style">this is a centred container and will</div>
     <hr>
 
     <h2>@links</h2>
