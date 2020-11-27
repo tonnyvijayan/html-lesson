@@ -1,8 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 :root{
-    --primary-color:#1D4ED8;
+    /* --primary-color:#1D4ED8; */
+    --primary-color:#4C8A7B;
     --offwhite:#F3F4F6
     ;
     --dark-grey:#6B7280;
@@ -13,7 +14,9 @@
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
 }
 
 hr{
@@ -132,6 +135,10 @@ hr{
 }
 .footer ul{
     padding-inline-start:0px;
+}
+.footer .footer-header{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 
