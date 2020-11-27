@@ -5,30 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!--This is 1 way of doing css <style>
-        body{
-            color: red;
-        }
-    </style> -->
 
-    <!-- this is the thirday way of doing it- externally     -->
-
-    <link href="styles.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 
 <body>
-    <h1 id="lib-header">Tonny's component library</h1>
-    <!-- second way of doing it style="color: blue;" -->
+    <h1>Tonny's component library</h1>
+
     <p>I am attending neog camp and i want to make a library which would make all my projects look good and consistent
     </p>
 
     <hr>
 
-    <h2 id="typo-style">@typography</h2>
+    <h2>@typography</h2>
     <h1>This is the biggest heading</h1>
     <h1>this is another big heading goes to next row</h1>
     <h2>This is the second biggest heading </h2>
-    <p class="para-style">This is a paragraph and its free flowing also wraps around the end to form a paragraph</p>
+    <p>This is a paragraph and its free flowing also wraps around the end to form a paragraph</p>
+    <p>This paragraph will have <strong>bold </strong>text</p>
     <small>this is a smaller text.</small><small>this a smaller text 2</small>
     <h1>this is test </h1>
     <hr>
@@ -36,83 +30,94 @@
     <h2>@container</h2>
 
     <h3>fluid container</h3>
-    <div class="para-style">this is a fluid container and will go till the end of this page </div>
+    <div class="container">this is a fluid container and will go till the end of this page </div>
 
     <h3>centred container</h3>
-    <div class="para-style">this is a centred container and will</div>
+    <div class="container container-centre">this is a centred container and will</div>
     <hr>
 
     <h2>@links</h2>
-    <a href="/">primary link</a>
-    <a href="/">secondary link</a>
+    <a class="link link-primary" href="/">primary link</a>
+    <a class="link link-secondary" href="/">secondary link</a>
     <hr>
 
     <h2>@list</h2>
 
     <h3>un ordered list</h3>
-    <ul>
+    <p>This list will not have bullet </p>
+    <ul class="list-non-bullet">
         <li>Item one</li>
         <li>Item two</li>
         <li>Item three</li>
 
     </ul>
     <h3>inline unordered list </h3>
-    <ul>
-        <li>Inline Item one</li>
-        <li>Inline Item two</li>
-        <li>Inline Item two</li>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item one</li>
+        <li class="list-item-inline">Inline Item two</li>
+        <li class="list-item-inline">Inline Item two</li>
     </ul>
     <h3>Reverse ordered list</h3>
-    <ol>
+    <ol reversed>
         <li>milk</li>
         <li>chocolate</li>
         <li>potato</li>
     </ol>
     <hr>
     <h2>@navigation bar</h2>
-    <nav>
-        <div>Iambrand</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">Iambrand</div>
+        <ul class="list-non-bullet nav-pill">
+            <li class="list-item-inline link-active">
+                <a class="link" href="/">Home</a>
 
             </li>
-            <li>
-                <a href="/">Products</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">Products</a>
             </li>
-            <li>
-                <a href="/">About</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">About</a>
             </li>
         </ul>
     </nav>
 
     <h2>@header</h2>
-    <header>
-        <img src="images/siteimage.svg" alt="Hero">
-        <h1>heading inside hero</h1>
+    <header class="hero">
+        <img class="hero-image" src="images/siteimage.svg" alt="Hero">
+        <h1 class="hero-heading">The upcoming <span class="heading-span">web developer</span></h1>
 
     </header>
     <hr>
     <h2>@sections</h2>
-    <section>
-        <h3>white sections</h3>
-        <p>this will have a white</p>
+    <section class="section">
+        <div class="container container-centre">
+        <h1>white sections</h1>
+        <p>The open Web presents incredible opportunities for developers. To take full advantage of these technologies, you need to know how to use them. Below you'll find links to our Web technology documentation.</p>
+        </div>
     </section>
 
 
-    <section>
-        <h3>offwhite section</h3>
-        <p>this will have an offwhite section</p>
+    <section class="section ow">
+        <div class="container container-centre">
+        <h1>offwhite section</h1>
+        <p>The open Web presents incredible opportunities for developers. To take full advantage of these technologies, you need to know how to use them. Below you'll find links to our Web technology documentation.</p>
+        </div>
 
     </section>
     <hr>
     <h2>@Footer</h2>
-    <footer>
-        <div>Some contents in footer</div>
-        <ul>
-            <li>facebook</li>
-            <li>twitter</li>
-            <li>instagram</li>
+    <footer class="footer">
+        <div class="footer-header">Some contents in footer</div>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">facebook</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">twitter</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">instagram</a>
+            </li>
 
         </ul>
 
