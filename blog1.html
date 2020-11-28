@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs || Tonny Vijayan</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    
+</head>
+<body>
+
+    <nav class="navigation container">
+        <div class="nav-brand">Tonny Vijayan</div>
+        <ul class="list-non-bullet nav-pill">
+            <li class="list-item-inline">
+                <a class="link" href="/">Home</a>
+
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline link-active">
+                <a class="link" href="blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="section ow">
+        <div class="container container-centre">
+        <h1>Getting started Cloning and experimenting with open-source projects on Git-Hub</h1>
+        <small>28th November 2020</small>
+        <p>Firstly lets clear out the air on what the difference is between git and github. Git is a version control software that lets you manage and keep track of the source code history in short it keeps a track of your development somewhat like individual lego bricks, you can always go back and change a block and add new one to the main product if you are not happy with things.GitHub on the other hand is a cloud based hosting service that employs this git mechanism and helps you manage git repositories, it makes collaborating with many people easier</p>
+        <br>
+        <h3>Here is a nice short and  detailed video explaining it</h3>
+        <iframe width="620" height="420"
+        src="https://www.youtube.com/embed/wpISo9TNjfU" allowfull>
+        </iframe>
+        <br>
+
+        <h3>Cloning different open source progects</h3>
+        <p>Firstly headover to Github and try to find beginner friendly open-source repositories that you would like to clone and experiment with, once found here are the steps that you need to follow.</p>
+        <ol>
+            <li class="blog-list">Fork the repo</li>
+            <p>Find the repo you want to clone, open it and then click on the fort button on the top right corner</p>
+            <li class="blog-list">Clone the repo</li>
+            <p>To clone this repo click on the green code button and copy the HTTPS url</p>
+            <p>Now using the terminal go to the folder where you want to download this file</p>
+            <p>once there type in the command <strong>git clone (repo-url)</strong> replace repo-url with the HTTPS url link that you have already copied</p>
+            <li class="blog-list">Create a branch</li>
+            <p>Now we create a new branch to the main branch using the command <strong>git branch <'branch-name'></strong>, we will be adding our new features or making changes on this new branch</p>
+            <li class="blog-list">Add and Commit changes</li>
+            <p>Once we have added our features or made the changes we now have to add using the command <strong>git add .</strong> and then commit the changes using the command <strong>git commit -m "The message of our changes"</strong></p>
+            <li class="blog-list">Run and play with the code</li>
+            <p>Now as you have added new features to the program you can run it using an editor and see your feature come to life if nothing goes wrong. This is a good way to experiment and understand how various codes and apps work.</p>
+
+            <br>
+
+            <h3>Takeaway</h3>
+            <p>While this a good way to try out different projects and codes please do not forget to try and implement projects on your own as ultimately this is what will help you learn and gain experience with your muscle memory which in tern will help you to write code on your own.</p>
+        </ol>
+
+        
+        </div>
+
+    </section>
+    <footer class="footer">
+        <div class="footer-header">Connect with me on</div>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/tonnyvijayan">Github</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/tony_vijayan">Twitter</a>
+            </li>
+            <!-- <li class="list-item-inline">
+                <a class="link" href="/">instagram</a>
+            </li> -->
+
+        </ul>
+
+    </footer>
+    
+</body>
+</html>

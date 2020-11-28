@@ -17,6 +17,7 @@ body{
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Ubuntu', sans-serif;
     margin: 0px;
+    
 }
 
 hr{
@@ -120,6 +121,12 @@ hr{
 .ow{
     background-color:var(--offwhite);
 }
+.section .section-project{
+    text-align: left;
+}
+.section .section-blogs{
+    text-align: left;
+}
 
 
 /* footer */
@@ -140,6 +147,8 @@ hr{
     font-size: 1.5rem;
     font-weight: bold;
 }
-
+.blog-list{
+    font-weight: bold;
+}
 
 
